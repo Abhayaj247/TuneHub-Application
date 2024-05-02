@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	background: #DD5E89;
+	background: #de6161;
+	background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+	background: linear-gradient(to right, #2657eb, #de6161);
+}
+/* index Page CSS  */
+.Heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	margin-top: 10px;
+}
+
+.Heading h1 {
+	/* padding-bottom: 50px; */
+	font-family: sans-serif;
+	font-size: 45px;
+	font-weight: 800;
+}
+
+.signup {
+	padding: 7px;
+	margin: 30px 0px 50px 0px;
+	border-radius: 20px;
+	font-size: 30px;
+	font-weight: 700;
+	color:#808040;
+}
+
+.login {
+	padding: 7px;
+	border-radius: 20px;
+	font-size: 30px;
+	font-weight: 700;
+	color:#808040;
+}
+/* register page css  */
+div.main {
+	width: 400px;
+	margin: 100px auto 0px auto;
+}
+
+h2 {
+	text-align: center;
+	padding: 20px;
+	font-family: sans-serif;
+}
+
+div.signup {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+	color: #fff;
+}
+
+form#register {
+	margin: 40px;
+}
+
+label {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+
+input#name {
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+	box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+input#submit {
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 600;
+	border-radius: 3px;
+	background-color: rgba(250, 100, 0, 0.8);
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+	margin-bottom: 10px;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+label, span, h2, h3 {
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+/* Login Page CSS  */
+div.main1 {
+	width: 400px;
+	margin: 100px auto 0px auto;
+}
+
+div.login {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+	color: #fff;
+}
+
+form#login {
+	margin: 40px;
+}
+
+h3 {
+	text-align: center;
+	padding: 20px;
+	font-family: sans-serif;
+}

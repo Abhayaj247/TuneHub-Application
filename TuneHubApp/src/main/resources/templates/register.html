@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+<link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+	<div class="main">
+	<div class="signup">
+	<form action="/register" method="post" id="register">
+		<h2>Signup Here</h2>
+		<label>User Name :</label> 
+		<br/>
+		<input type="text" name="username" placeholder="Enter Your Username" id="name" /> 
+		<br /><br />
+		<label>Email ID :</label> 
+		<br/>
+		<input type="email" name="email" placeholder="Enter Your Email" id="name" />
+		<br /> <br /> 
+		<label>Password :</label>
+		<br/> 
+		<input type="password" name="password" placeholder="Enter Your Password" id="name" /> 
+		<br /> <br /> 
+		<label>Gender :</label>
+		<br/>
+		&nbsp;&nbsp;&nbsp; 
+		<input type="radio" name="gender" value="male" />
+		&nbsp;
+		<span id="male">Male</span> 
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="gender" value="female" />
+		&nbsp;
+		<span id="female">Female</span> 
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="gender" value="others" />
+		&nbsp;
+		<span>Others</span> 
+		<br/><br/>
+		<label>Role :</label> 
+		<br/>
+		&nbsp;&nbsp;&nbsp; 
+		<input type="radio" name="role" value="admin" />
+		&nbsp;
+		<span id="admin">Admin</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="role" value="customer" />
+		<span id="customer">Customer</span>
+		<br /> <br />
+		<label>Address :</label>
+		<input type="text" name="address" placeholder="Enter Your Address" id="name" /> 
+		<br /> <br /> 
+		<input type="submit" value="REGISTER" name="submit" id="submit" />
+	</form>
+	</div>
+	</div>
+</body>
+</html>

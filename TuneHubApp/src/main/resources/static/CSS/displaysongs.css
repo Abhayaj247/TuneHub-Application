@@ -1,0 +1,27 @@
+@charset "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color:white;
+}
+
+body {
+	background: #DD5E89;
+	background: #de6161;
+	background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+	background: linear-gradient(to right, #2657eb, #de6161);
+}
+div table.songs {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background-color: #fff;
+	text-align:center;
+	outline: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+	width:700px;
+	margin-top:60px;
+	margin-left: 430px;
+}

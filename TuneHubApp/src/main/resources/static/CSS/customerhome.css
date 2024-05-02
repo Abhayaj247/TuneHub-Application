@@ -1,0 +1,32 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body {
+	background: #DD5E89;
+	background: #de6161;
+	background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+	background: linear-gradient(to right, #2657eb, #de6161);
+}
+div.customer{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items:center;
+	margin:20px;
+	font-size: 20px;
+}
+.customer h1{
+	font-weight: 800;
+}
+.expsong{
+	padding:10px;
+	margin:30px;
+	font-size: 18px;
+	border-radius: 20px;
+	color:black;
+	font-weight: 700;
+	border-color: black;
+}
